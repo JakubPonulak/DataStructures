@@ -8,6 +8,7 @@
 
 - Programs can be beneficial, but can also be used in harmful ways (street cameras can take pictures of people without their permission if they are hacked)
 - Computing can have negative health effects (dopamine spikes, addiction, etc.)
+
 **Actions:**
 1. Social Media can be used for communication and entertainment, but can also harm people emotionally
 2. Online databases for banks can be very helpful for organizing data, but if they are accessed illegally hackers can access people's money and bank accounts.
