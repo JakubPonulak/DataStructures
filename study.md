@@ -13,6 +13,7 @@
 1. Social Media can be used for communication and entertainment, but can also harm people emotionally
 2. Online databases for banks can be very helpful for organizing data, but if they are accessed illegally hackers can access people's money and bank accounts.
 3. Satellites can be used by companies like Google Maps to create accurate maps or  take pictures of places, but if they are hacked, they can expose secret military locations/instalations and infringe on people's privacy.
+
 - I understand the concern about dopamine and things like video games, but I think that if you have self control it won't be a problem. I have never missed school or had my grades suffer because of games or social media.
 
 #### 5.2 - Digital Divide
