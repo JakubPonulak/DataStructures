@@ -8,6 +8,7 @@
 
 - Programs can be beneficial, but can also be used in harmful ways (street cameras can take pictures of people without their permission if they are hacked)
 - Computing can have negative health effects (dopamine spikes, addiction, etc.)
+- Flowcharts & Unified Modeling Language - different styles of coding, used to model procedures (what they will do). 
 
 **Actions:**
 1. Social Media can be used for communication and entertainment, but can also harm people emotionally
