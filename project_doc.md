@@ -105,6 +105,9 @@ if __name__ == "__main__":
     menu()
 
 ```
+#### Tech Talk 1 - Data Structures
+https://replit.com/@JakubPonulak/DataStructures#main.py
+
 ## Code / Runtime Links
 
 [GitHub Repository](https://github.com/AkhilNandhakumar/Guython)
