@@ -3,7 +3,7 @@
 # Data Structures Project Documentation
 
 #### Runtime Demo
-<iframe height="900px" width="1200px" src="https://replit.com/@JakubPonulak/DataStructures?lite=true">
+<iframe height="600px" width="900px" src="https://replit.com/@JakubPonulak/DataStructures?lite=true">
 
 ## Code Snippets
 
