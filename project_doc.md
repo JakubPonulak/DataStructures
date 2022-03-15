@@ -106,10 +106,12 @@ if __name__ == "__main__":
 
 ```
 #### Tech Talk 1 - Data Structures
-https://replit.com/@JakubPonulak/DataStructures
 
 ## Code / Runtime Links
 
 [GitHub Repository](https://github.com/AkhilNandhakumar/Guython)
 
 [Replit - Menus](https://replit.com/@JakubPonulak/TT0-Menus#main.py)
+
+#### Runtime Demo
+<iframe height="1000px" src="https://replit.com/@JakubPonulak/DataStructures?lite=true">
