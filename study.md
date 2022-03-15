@@ -23,6 +23,11 @@ Actions:
 - Can also depend on government (people in China can't access same things as people in US)
 - Coders and programers should have digital divide in mind when creating or working on computer software
 
+Actions: 
+1. Empowering yourself in the digital world means to give yourself the correct resources and materials to thrive and reach your full potential.
+2. People who are empowered can help others by teaching them or helping them get the resources they need.
+3. I think that some red tape is increasing the digital divide, because it slows down or stops the rate at which people with less technological opportunites can reach the same level of understanding or knowledge that others can.
+
 #### 5.3 - Computing Bias
 
 - Sometimes programs can exclude specific groups or people, purposefully or not
