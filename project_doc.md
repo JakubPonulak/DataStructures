@@ -106,7 +106,7 @@ if __name__ == "__main__":
 
 ```
 #### Tech Talk 1 - Data Structures
-https://replit.com/@JakubPonulak/DataStructures#main.py
+https://replit.com/@JakubPonulak/DataStructures
 
 ## Code / Runtime Links
 
