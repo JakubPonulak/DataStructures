@@ -114,4 +114,4 @@ if __name__ == "__main__":
 [Replit - Menus](https://replit.com/@JakubPonulak/TT0-Menus#main.py)
 
 #### Runtime Demo
-<iframe height="900px" widht="1200px" src="https://replit.com/@JakubPonulak/DataStructures">
+<iframe height="900px" width="1200px" src="https://replit.com/@JakubPonulak/DataStructures?lite=true">
