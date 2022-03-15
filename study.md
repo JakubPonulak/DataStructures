@@ -42,3 +42,12 @@ Actions:
 3. If I was the one making or working on this program, I would have sure to test it with multiple faces (age, gender, race, etc.) It's honestly surprising that such a well known company as HP could have slipped up in something as simple (but impactful) as this.
 
 ### 5.4 - Crowdsourcing
+
+- Obtain shared information and share information with others through programming
+- Example being Wikipedia, APIs, Cryptocurrency, etc.
+- Crowdsourcing can help if you have limited resources or if you need multiple ideas / perspectives
+
+Actions:
+1. For CSP, we could create a modifyable wiki/GitHub page were students can access TPT and TT information and add onto it if they want to.
+2. A crowdsourcing idea we could use is a forum where students can help other students with homework or studying.
+3.
