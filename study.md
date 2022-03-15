@@ -50,4 +50,3 @@ Actions:
 Actions:
 1. For CSP, we could create a modifyable wiki/GitHub page were students can access TPT and TT information and add onto it if they want to.
 2. A crowdsourcing idea we could use is a forum where students can help other students with homework or studying.
-3.
