@@ -7,7 +7,8 @@
 
 ## Code Snippets
 
-#### Tech Talk 0 - Menus
+<details>
+    <summary> Tech Talk 0 - Code</summary>
 ```
 # menuy.py - function style menu
 # Imports typically listed at top
@@ -108,6 +109,8 @@ if __name__ == "__main__":
     menu()
 
 ```
+</details>
+
 #### Tech Talk 1 - Data Structures
 
 ```
