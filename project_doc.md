@@ -121,17 +121,36 @@ InfoDb.append({
                "DOB": "March 25",  
                "Residence": "San Diego",  
                "Email": "jakub.ponulak@gmail.com",  
-               "Owns_Cars":["1997 BMW M3","2005 Subaru Impreza","1999 Nissan GTR Skyline","1997 Toyota Supra", "2016 Lamborghini Centariano"]  
+               "Owns_Cars":["1997 BMW M3","2005 Subaru Impreza","1999 Nissan GTR Skyline","1997 Toyota Supra", "1990 Lamborghini Countach"]  
               })
 
 InfoDb.append({  
                "FirstName": "John",  
                "LastName": "Cena",  
                "DOB": "April 23",  
-               "Residence": "Los Angeles",  
+               "Residence": "Hollywood",  
                "Email": "johncena@gmail.com",  
                "Owns_Cars":["2022 Invisi-Mobile"]  
+              }) 
+
+InfoDb.append({  
+               "FirstName": "Akhil",  
+               "LastName": "Nandhukamar",  
+               "DOB": "April 1",  
+               "Residence": "San Diego",  
+               "Email": "akhiln@gmail.com",  
+               "Owns_Cars":["2005 Ferarri FXX", "2005 Honda CRV"]  
               })  
+
+InfoDb.append({  
+               "FirstName": "Elon",  
+               "LastName": "Musk",  
+               "DOB": "June 28",  
+               "Residence": "Los Angeles",  
+               "Email": "elonmusk@gmail.com",  
+               "Owns_Cars":["2022 Tesla Model X", "Tesla Cybertruck"]  
+              })  
+
 
 # given an index this will print InfoDb content
 def print_data(n):
@@ -187,21 +206,19 @@ def tester1():
 
 # Hack 3: Fibonacci.  Write a recursive program to create a fibonacci sequence including error handling for invalid input
 def fibonacci():
-  n1 = 0
-  n2 = 1
   num = int(input("Enter the length of your Fibonacci sequence: "))
   if num < 0:
     print("You cannot use a negative number")
-  elif num == 0:
-    print(n1)
-  elif num == 1:
-    print(n2)
   else:
-    for i in range(0,num):
-      n3 = n1 + n2
-      n1 = n2
-      n2 = n3
-      print(n2)
+    for i in range(num):
+      print(recur_fibonacci(i))
+
+def recur_fibonacci(n):
+  if n <= 1:  
+     return n  
+  else:  
+     return(recur_fibonacci(n-2) + recur_fibonacci(n-1))
+  
 ```
 
 ## Code / Runtime Links
