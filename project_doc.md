@@ -9,7 +9,7 @@
 
 <details>
     <summary> Tech Talk 0 - Code</summary>
-    <br>
+    
 ```
 # menuy.py - function style menu
 # Imports typically listed at top
@@ -227,7 +227,8 @@ def recur_fibonacci(n):
      return(recur_fibonacci(n-2) + recur_fibonacci(n-1))
   
 ```
-           </details>
+        
+</details>
            
 ## Code / Runtime Links
 
