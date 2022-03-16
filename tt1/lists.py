@@ -8,7 +8,7 @@ InfoDb.append({
                "DOB": "March 25",  
                "Residence": "San Diego",  
                "Email": "jakub.ponulak@gmail.com",  
-               "Owns_Cars":["1997 BMW M3","2005 Subaru Impreza","1999 Nissan GTR Skyline","1997 Toyota Supra", "2016 Lamborghini Centariano"]  
+               "Owns_Cars":["1997 BMW M3","2005 Subaru Impreza","1999 Nissan GTR Skyline","1997 Toyota Supra", "1990 Lamborghini Countach"]  
               })
 
 InfoDb.append({  
