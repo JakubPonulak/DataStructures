@@ -2,7 +2,7 @@ ANSI_CLEAR_SCREEN = u"\u001B[2J"
 ANSI_HOME_CURSOR = u"\u001B[2;0H\u001B[2"
 SMILE_COLOR = u"\u001B[31m\u001B[2D"
 RESET_COLOR = u"\u001B[0m\u001B[2D"
-from tt1 import lists
+from tt1 import loops
 import time
 
 def smile_print(position):
@@ -64,8 +64,8 @@ def lessNumSwap():
 main_menu = [
     ["Animation", smile],
     ["Diamond", diamond],
-    ["List Printer", lists.tester],
-    ["Fibonacci", lists.fibonacci]
+    ["List Printer", loops.tester],
+    ["Fibonacci", loops.fibonacci]
 ]
 
 # Submenu list of [Prompt, Action]
