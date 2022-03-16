@@ -15,10 +15,29 @@ InfoDb.append({
                "FirstName": "John",  
                "LastName": "Cena",  
                "DOB": "April 23",  
-               "Residence": "Los Angeles",  
+               "Residence": "Hollywood",  
                "Email": "johncena@gmail.com",  
                "Owns_Cars":["2022 Invisi-Mobile"]  
+              }) 
+
+InfoDb.append({  
+               "FirstName": "Akhil",  
+               "LastName": "Nandhukamar",  
+               "DOB": "April 1",  
+               "Residence": "San Diego",  
+               "Email": "akhiln@gmail.com",  
+               "Owns_Cars":["2005 Ferarri FXX", "2005 Honda CRV"]  
               })  
+
+InfoDb.append({  
+               "FirstName": "Elon",  
+               "LastName": "Musk",  
+               "DOB": "June 28",  
+               "Residence": "Los Angeles",  
+               "Email": "elonmusk@gmail.com",  
+               "Owns_Cars":["2022 Tesla Model X", "Tesla Cybertruck"]  
+              })  
+
 
 # given an index this will print InfoDb content
 def print_data(n):
