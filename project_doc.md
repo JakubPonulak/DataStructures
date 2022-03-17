@@ -11,6 +11,7 @@
     <summary> Tech Talk 0 - Code</summary>
     
 ```
+    
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
@@ -118,6 +119,7 @@ if __name__ == "__main__":
     <br>
     
 ```
+    
 # Hack 1: InfoDB lists.  Build your own/personalized InfoDb with a list length > 3,  create list within a list as illustrated with Owns_Cars
 
 InfoDb = []
