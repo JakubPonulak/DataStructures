@@ -6,12 +6,10 @@
 <iframe height="600px" width="1000px" src="https://replit.com/@JakubPonulak/DataStructures?lite=true"></iframe>
 
 ## Code Snippets
+  
+### Tech Talk 0 - Code
 
-<details>
-    <summary> Tech Talk 0 - Code</summary>
-    
-```
-    
+```   
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
@@ -112,12 +110,8 @@ if __name__ == "__main__":
 
 ```
 
-</details>
+### Tech Talk 1
 
-<details>
-    <summary>Tech Talk 1 - Code</summary>
-    <br>
-    
 ```
     
 # Hack 1: InfoDB lists.  Build your own/personalized InfoDb with a list length > 3,  create list within a list as illustrated with Owns_Cars
@@ -229,9 +223,7 @@ def recur_fibonacci(n):
      return(recur_fibonacci(n-2) + recur_fibonacci(n-1))
   
 ```
-        
-</details>
-           
+                   
 ## Code / Runtime Links
 
 [GitHub Repository](https://github.com/AkhilNandhakumar/Guython)
