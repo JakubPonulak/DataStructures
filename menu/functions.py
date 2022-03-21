@@ -64,8 +64,6 @@ def lessNumSwap():
 main_menu = [
     ["Animation", smile],
     ["Diamond", diamond],
-    ["List Printer", loops.tester],
-    ["Fibonacci", loops.fibonacci]
 ]
 
 # Submenu list of [Prompt, Action]
@@ -73,6 +71,11 @@ main_menu = [
 sub_menu = [
     ["Swapping", numberSwapper],
     ["Smaller # 1st", lessNumSwap],
+]
+
+sub_menu1 = [
+    ["List Printer", loops.tester],
+    ["Fibonacci", loops.fibonacci]
 ]
 
 # Menu banner is typically defined by menu owner
@@ -93,6 +96,7 @@ def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Swap Menu", submenu])
+    menu_list.append(["TT1 Menu", submenu1])
     buildMenu(title, menu_list)
 
 # def submenu
@@ -101,6 +105,11 @@ def menu():
 def submenu():
     title = "Swap Submenu" + banner
     buildMenu(title, sub_menu)
+
+def submenu1():
+    title = "Swap Submenu" + banner
+    buildMenu(title, sub_menu1)
+
 
 def buildMenu(banner, options):
     # header for menu
