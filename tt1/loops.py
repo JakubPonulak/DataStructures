@@ -97,9 +97,11 @@ def fibonacci():
   if num < 0:
     print("You cannot use a negative number")
   else:
+    # for loops lets recursive fibonacci loop print every number in a fibonacci sequence in a certain range "num"
     for i in range(num):
       print(recur_fibonacci(i))
 
+# recursive loop that takes a number input, n, and returns the nth number in a fibonacci sequence
 def recur_fibonacci(n):
   if n <= 1:  
      return n  
