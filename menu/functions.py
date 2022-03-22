@@ -3,6 +3,7 @@ ANSI_HOME_CURSOR = u"\u001B[2;0H\u001B[2"
 SMILE_COLOR = u"\u001B[31m\u001B[2D"
 RESET_COLOR = u"\u001B[0m\u001B[2D"
 from tt1 import loops
+from tt2 import classes
 import time
 
 def smile_print(position):
@@ -62,8 +63,6 @@ def lessNumSwap():
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["Animation", smile],
-    ["Diamond", diamond],
 ]
 
 # Submenu list of [Prompt, Action]
@@ -73,14 +72,25 @@ sub_menu = [
     ["Smaller # 1st", lessNumSwap],
 ]
 
+sub_menu0 = [
+    ["Animation", smile],
+    ["Diamond", diamond],
+]
+
 sub_menu1 = [
     ["List Printer", loops.tester],
-    ["Fibonacci", loops.fibonacci]
+    ["Fibonacci", loops.fibonacci],
+]
+
+sub_menu2 = [
+  ["Factorial", classes.factorial_print],
+  ["Sequential Sum", classes.consec_print],
 ]
 
 # Menu banner is typically defined by menu owner
-border = "=" * 25
-banner = f"\n{border}\nPlease Select An Option\n{border}"
+border1 = "«" * 25
+border2 = "»" * 25 
+banner = f"\n{border1}\nPlease Select An Option\n{border2}"
 
 
 
@@ -96,7 +106,9 @@ def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Swap Menu", submenu])
+    menu_list.append(["TT0 Menu", submenu0])
     menu_list.append(["TT1 Menu", submenu1])
+    menu_list.append(["TT2 Menu", submenu2])
     buildMenu(title, menu_list)
 
 # def submenu
@@ -106,10 +118,17 @@ def submenu():
     title = "Swap Submenu" + banner
     buildMenu(title, sub_menu)
 
+def submenu0():
+    title = "TT0 Submenu" + banner
+    buildMenu(title, sub_menu0)
+
 def submenu1():
-    title = "Swap Submenu" + banner
+    title = "TT1 Submenu" + banner
     buildMenu(title, sub_menu1)
 
+def submenu2():
+    title = "TT2 Submenu" + banner
+    buildMenu(title, sub_menu2)
 
 def buildMenu(banner, options):
     # header for menu
