@@ -4,6 +4,23 @@
 
 ## CB Sections 5.1 - 5.6
 
+### 5.6 - Safe Computing
+
+- Personal Identifiable Information (PII): Information about you on the internet, some of it good, other info can be harmful
+
+### 5.5 - Legal and Ethical Concerns
+
+- Companies and teams use different licenses when publishing their work
+- Linux: free for use to the public, Open Source
+- Qualcomm: makes money on patents, not possible with same license as Linux
+- Always cite sources (code, images, etc.)
+- Businesses need to make money, but won't last without open source software
+
+Actions:
+1. I think that if I wanted to make a profit off of my projects, I would use something like the Open Source MIT license, which would allow me to sell closed source versions of it. If I wanted my projects to be available to everyone and free to use, I would use Creative Commons 0 or GPL.
+2. The license I have chosen for my personal GitHub pages is GNU GPLv3, because I want people to be able to use the information I provide without having to pay for it. Since this material is educational, I want people to easily access it, which is easiest to do with GPL. This license also allows people to modify or add on to my project, and also make those projects open source and free to use by other people. The license our team selected for our group project, managed by Mr. Mortensen, is 
+
+
 ### 5.4 - Crowdsourcing
 
 - Obtain shared information and share information with others through programming
