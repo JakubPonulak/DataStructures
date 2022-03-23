@@ -59,10 +59,10 @@ class Palindrome:
       l1 = self.letters[i].lower()
       l2 = self.letters[len(self.letters) - i - 1].lower()
       if l1 == l2:
-        pali_true = 1
+        pali_true += 1
       else:
         print("An error occurs at", self.letters[len(self.letters) - i - 1], "which is letter ", len(self.letters) - i, ". This letter should be", self.letters[i])
-    if pali_true == 1:
+    if pali_true == int(self.length / 2):
       print("This is a palindrome!")
     else:
       print("This is not a palindrome...")
