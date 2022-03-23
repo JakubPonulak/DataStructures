@@ -7,6 +7,18 @@
 ### 5.6 - Safe Computing
 
 - Personal Identifiable Information (PII): Information about you on the internet, some of it good, other info can be harmful
+  - Good: Name, email, accomplishments, credit report, etc.
+  - Bad: passwords, SSN, tax records, Address, etc.
+- Use things like 2-Factor authentication to stay safe, beware malware, phishing, etc
+- Encryption (symmetric and asymmetric) help keep information and data access off the web
+
+Actions:
+1. PII that we include in our CSP projects is our names, contact info, what school we go to, our previous projects/assignments.
+2. I think that I am not very exposed, that there is little to none bad PII about we accessible to the public (or through nefarious methods)
+3. A good password is long, random, and uses alphanumerics + special symbols. A bad password is short and easy to guess.
+4. Symmetric encryption only uses 1 (private) key, and is faster but less secure. Asymmetric encryption is a more modern method that uses 2 keys (public and private), which takes longer but is more secure.
+5. When we deploy, we encode private information about the machine and user that made the deployment, such as IP address.
+6. When I was younger, I used to believe ads or emails that said something like "Click here for a million Gems!" (in some game). Though I never gave away any private information, I did believe that these were serious/legitimate methods. Other phishing examples would be "winning" a sweepstake or a lottery, but to access it you need to provide your bank account info.
 
 ### 5.5 - Legal and Ethical Concerns
 
