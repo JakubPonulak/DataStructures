@@ -87,6 +87,7 @@ sub_menu2 = [
   ["Factorial", classes.factorial_print],
   ["Sequential Sum (OOP)", classes.consec_print],
   ["Sequential Sum (Imperative)", classes.seq_sum],
+  ["Palindrome", classes.pali_print],
 ]
 
 # Menu banner is typically defined by menu owner
