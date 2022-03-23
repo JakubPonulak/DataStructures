@@ -5,7 +5,7 @@
 #### Runtime Demo
 <iframe height="600px" width="1000px" src="https://replit.com/@JakubPonulak/DataStructures?lite=true"></iframe>
 
-## Code Snippets
+<!-- ## Code Snippets
   
 ### Tech Talk 0 - Code
 
@@ -220,7 +220,7 @@ def recur_fibonacci(n):
   if n <= 1:  
      return n  
   else:  
-     return(recur_fibonacci(n-2) + recur_fibonacci(n-1))
+     return(recur_fibonacci(n-2) + recur_fibonacci(n-1)) -->
   
 ```
                    
