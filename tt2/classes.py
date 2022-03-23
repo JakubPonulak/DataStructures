@@ -18,7 +18,7 @@ class Factorial:
 def factorial_print():
   inp = int(input("Enter a number you want the factorial of: "))
   p1 = Factorial(inp)
-  p1.__call__()
+  p1()
 
 def seq_sum():
   num = int(input("Enter a number for your sequential sum: "))
