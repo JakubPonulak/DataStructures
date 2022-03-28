@@ -4,6 +4,35 @@
 
 ## CB Sections 5.1 - 5.6
 
+### 5.6 - Safe Computing
+
+- Personal Identifiable Information (PII): Information about you on the internet, some of it good, other info can be harmful
+  - Good: Name, email, accomplishments, credit report, etc.
+  - Bad: passwords, SSN, tax records, Address, etc.
+- Use things like 2-Factor authentication to stay safe, beware malware, phishing, etc
+- Encryption (symmetric and asymmetric) help keep information and data access off the web
+
+Actions:
+1. PII that we include in our CSP projects is our names, contact info, what school we go to, our previous projects/assignments.
+2. I think that I am not very exposed, that there is little to none bad PII about we accessible to the public (or through nefarious methods)
+3. A good password is long, random, and uses alphanumerics + special symbols. A bad password is short and easy to guess.
+4. Symmetric encryption only uses 1 (private) key, and is faster but less secure. Asymmetric encryption is a more modern method that uses 2 keys (public and private), which takes longer but is more secure.
+5. When we deploy, we encode private information about the machine and user that made the deployment, such as IP address.
+6. When I was younger, I used to believe ads or emails that said something like "Click here for a million Gems!" (in some game). Though I never gave away any private information, I did believe that these were serious/legitimate methods. Other phishing examples would be "winning" a sweepstake or a lottery, but to access it you need to provide your bank account info.
+
+### 5.5 - Legal and Ethical Concerns
+
+- Companies and teams use different licenses when publishing their work
+- Linux: free for use to the public, Open Source
+- Qualcomm: makes money on patents, not possible with same license as Linux
+- Always cite sources (code, images, etc.)
+- Businesses need to make money, but won't last without open source software
+
+Actions:
+1. I think that if I wanted to make a profit off of my projects, I would use something like the Open Source MIT license, which would allow me to sell closed source versions of it. If I wanted my projects to be available to everyone and free to use, I would use Creative Commons 0 or GPL.
+2. The license I have chosen for my personal GitHub pages is GNU GPLv3, because I want people to be able to use the information I provide without having to pay for it. Since this material is educational, I want people to easily access it, which is easiest to do with GPL. This license also allows people to modify or add on to my project, and also make those projects open source and free to use by other people. The license our team selected for our group project, managed by Mr. Mortensen, is 
+
+
 ### 5.4 - Crowdsourcing
 
 - Obtain shared information and share information with others through programming
