@@ -20,6 +20,7 @@ def factorial_print():
   p1 = Factorial(inp)
   p1()
 
+# imperative version of sequential sum
 def seq_sum():
   num = int(input("Enter a number for your sequential sum: "))
   n = 0
@@ -29,7 +30,8 @@ def seq_sum():
     for i in range(1, num + 1):
       n = n + i
     print("The sum of all numbers starting from 1 to", num, "is", n)
-  
+
+# OOP version of sequential sum feature
 class Consec_Nums:
   def __init__(self, num):
     self.num = num
@@ -42,6 +44,7 @@ class Consec_Nums:
         n = n + i
       print("The sum of all the numbers from 1 to", self.num, "is", n)
 
+# allows users to put input into sequential sum instead of using tester
 def consec_print():
   inp = int(input("Enter a number you want to find the sequential sum of: "))
   func = Consec_Nums(inp)
@@ -50,24 +53,25 @@ def consec_print():
 class Palindrome:
   def __init__(self, user_input):
     self.user_input = user_input
-    self.letters = re.sub("[^a-zA-Z]+", "", self.user_input)
+    self.letters = re.sub("[^a-zA-Z]+", "", self.user_input) # this part removes spaces and any symbol besides alphanumerics
     self.length = len(self.letters)
   def __call__(self):
-    range_text = int(self.length / 2)
+    range_text = int(self.length / 2) #cut phrase in half to check both halves
     pali_true = 0
     for i in range(0, range_text):
-      l1 = self.letters[i].lower()
-      l2 = self.letters[len(self.letters) - i - 1].lower()
+      l1 = self.letters[i].lower() #front part
+      l2 = self.letters[len(self.letters) - i - 1].lower() # back part
       if l1 == l2:
         pali_true += 1
       else:
-        print("An error occurs at", self.letters[len(self.letters) - i - 1], "which is letter", len(self.letters) - i, "- This letter should be", self.letters[i])
+        print("An error occurs at", self.letters[len(self.letters) - i - 1], "which is letter", len(self.letters) - i, "- This letter should be", self.letters[i]) #This part allows errors to be printed and show where they are.
     if pali_true == int(self.length / 2):
       print("This is a palindrome!")
     else:
       print("This is not a palindrome...")
 
-def pali_print():
+#this tester allows users to test phrases for the palindrome without giving inputs
+def pali_tester():
   test_data1 = Palindrome(user_input='Racecar')
   test_data2 = Palindrome(user_input='A man, a plan, a canal - Panama?')
   test_data3 = Palindrome(user_input='Test text')
