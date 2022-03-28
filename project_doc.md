@@ -224,6 +224,12 @@ def recur_fibonacci(n):
   
 ``` -->
                    
+## Key Learnings:
+
+One of the most important things I learned while working on python data structures in perseverence. I often came across problems I didn't know how to solve, but instead of giving up or looking for an easy solution online, I kept trying and persevering until I was able to complete my task, while also learning and understanding what my code does / is supposed to do.
+
+Another challange I faced was organizing all my files. I started this project without a clear goal/idea of how I would organize it, so I often found myself moving or rearanging files in between new assignments. Towards the end of these weeks I have been able to better organize my work/code, but in the future I will make sure to plan ahead and figure this out before I start a new project/assignment.
+
 ## Code / Runtime Links
 
 [GitHub Repository](https://github.com/AkhilNandhakumar/Guython)
