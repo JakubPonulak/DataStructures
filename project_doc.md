@@ -234,4 +234,4 @@ Another challange I faced was organizing all my files. I started this project wi
 
 [GitHub Repository](https://github.com/AkhilNandhakumar/Guython)
 
-[Replit - Menus](https://replit.com/@JakubPonulak/TT0-Menus#main.py)
+[Replit](https://replit.com/@JakubPonulak/DataStructures#main.py)
