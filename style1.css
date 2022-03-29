@@ -64,9 +64,9 @@
     color:#90a959
 }
 body{
-    margin:0;
+    margin:;
     padding:0;
-    background:#151515 url("../images/bkg.png") 0 0;
+    background:#151515;
     color:#eaeaea;
     font-size:16px;
     line-height:1.5;
@@ -100,8 +100,8 @@ header h1{
     margin:0 0 0 -40px;
     font-weight:bold;
     font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-    color:#b5e853;
-    text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1);
+    color:#53e8e3;
+    text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(24,230,223,0.1),0 0 10px rgba(23,219,212,0.1);
     letter-spacing:-1px;
     -webkit-font-smoothing:antialiased
 }
@@ -134,9 +134,9 @@ section img{
 h1,h2,h3,h4,h5,h6{
     font-weight:normal;
     font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-    color:#b5e853;
+    color:#53e8e3;
     letter-spacing:-0.03em;
-    text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1)
+    text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(24,230,223,0.1),0 0 10px rgba(23,219,212,0.1);
 }
 #main_content h1{
     font-size:30px
@@ -241,8 +241,8 @@ hr{
     background:url("../images/blacktocat.png") 0 0 no-repeat
 }
 a{
-    color:#63c0f5;
-    text-shadow:0 0 5px rgba(104,182,255,0.5)
+    color:#f5639b;
+    text-shadow:0 0 5px rgba(226,83,138,0.5)
 }
 .cf:before,.cf:after{
     content:"";
