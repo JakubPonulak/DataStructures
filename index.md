@@ -11,7 +11,7 @@
         // the path is used to create a link to the desired page
         let websitePages =
             [
-                {"name":"Test Prep", "path":"'https://jakubponulak.github.io/DataStructures/study'"},
+                {"name":"Test Prep", "path":"https://jakubponulak.github.io/DataStructures/study"},
                 {"name":"Project Documentation", "path":"jakubponulak.github.io/DataStructures/project_doc"},
                 {"name":"Create Task Documentation", "path":"jakubponulak.github.io/DataStructures/ct_doc"},
                 {"name":"Home", "path":"jakubponulak.github.io/DataStructures/"}
