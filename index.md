@@ -3,7 +3,7 @@
 <p style="font-size: 30px; text-align: center">Search for pages</p>
 <input style="margin-left: 30%; margin-right: 30%; font-size: 17.5px; height: 25px; width: 40%" type="text" id="SearchInput" onkeyup="SearchMain(list = websitePages, textcolor = '#c7ffd6', nullcolor = '#e30202', SearchID = 'SearchInput', ResultID = 'SearchResult', DebugMode = false)" placeholder="Search for pages" title="Search for pages">
 <br>
-<p style="margin-left: 30%; margin-right: 30%; width: 40%" id="SearchResult"></p>
+<p style="text-align: center; width: 60%" id="SearchResult"></p>
 <script>
         // this is an array that includes most of our website's pages.
         // each object in the list has a name and a path.
