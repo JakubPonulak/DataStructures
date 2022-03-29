@@ -207,8 +207,8 @@ td{
 hr{
     height:0;
     border:0;
-    border-bottom:1px dashed #b5e853;
-    color:#b5e853
+    border-bottom:1px dashed #53e8e3;
+    color:#53e8e3
 }
 .btn{
     display:inline-block;
@@ -241,8 +241,8 @@ hr{
     background:url("../images/blacktocat.png") 0 0 no-repeat
 }
 a{
-    color:#f5639b;
-    text-shadow:0 0 5px rgba(226,83,138,0.5)
+    color:#742ea6;
+    text-shadow:0 0 5px rgba(135,63,186,0.5)
 }
 .cf:before,.cf:after{
     content:"";
