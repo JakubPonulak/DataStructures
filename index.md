@@ -11,10 +11,10 @@
         // the path is used to create a link to the desired page
         let websitePages =
             [
-                {"name":"Test Prep", "path":"/study"},
-                {"name":"Project Documentation", "path":"/project_doc"},
-                {"name":"Create Task Documentation", "path":"/ct_doc"},
-                {"name":"Home", "path":"/"}
+                {"name":"Test Prep", "path":"/DataStructures/study"},
+                {"name":"Project Documentation", "path":"/DataStructures/project_doc"},
+                {"name":"Create Task Documentation", "path":"/DataStructures/ct_doc"},
+                {"name":"Home", "path":"/DataStructures/"}
 
             ] ;
 
