@@ -30,7 +30,7 @@
                     if (list[x].name.toUpperCase().includes(filter)) { //using include function allows users to only input part of the page name instead of the whole thing
                         let link = list[x].path;
                         let title = list[x].name;
-                        let output = `<a class='intlink' href='${link}'>${title}</a>` + ' | '; //this allows multiple links to be included in the result
+                        let output = `<a target="_blank" class='intlink' href='${link}'>${title}</a>` + ' | '; //this allows multiple links to be included in the result
                         document.getElementById(ResultID).innerHTML += output
                         document.getElementById(ResultID).style.color = 'grey'
                         let intlink = document.getElementsByClassName('intlink')
