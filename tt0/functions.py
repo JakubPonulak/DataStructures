@@ -88,6 +88,8 @@ sub_menu2 = [
   ["Factorial", classes.factorial_print],
   ["Sequential Sum (OOP)", classes.consec_print],
   ["Sequential Sum (Imperative)", classes.seq_sum],
+  # ["Least Common Multiple (OOP)", classes.lcm_oop],
+  ["Least Common Multiple (Imperative)", classes.lcm],
   ["Palindrome Tester", classes.pali_tester],
 ]
 

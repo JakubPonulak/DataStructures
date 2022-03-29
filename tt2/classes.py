@@ -70,6 +70,23 @@ class Palindrome:
     else:
       print("This is not a palindrome...")
 
+# CROSSOVER: Imperative LCM
+def lcm_func(a,b):
+  if (a > b):
+      maximum = a
+  else:
+      maximum = b
+  while (True):
+      if (maximum % a == 0 and maximum % b == 0):
+          break
+      maximum = maximum + 1
+  return maximum
+
+#IMPERATIVE LCM TESTER
+def lcm():
+  print("The LCM of 16, 12 is", lcm_func(16,12))
+  print("The LCM of 377, 27 is",lcm_func(377, 278))
+
 #this tester allows users to test phrases for the palindrome without giving inputs
 def pali_tester():
   test_data1 = Palindrome(user_input='Racecar')
