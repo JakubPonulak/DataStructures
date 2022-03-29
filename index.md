@@ -1,7 +1,7 @@
 {% include navigation.html %}
 
-<p style="font-size: 30px">Search for pages</p>
-<input style="margin-left: 30%; margin-right: 30%; height: 20px; width: 40%" type="text" id="SearchInput" onkeyup="SearchMain(list = websitePages, textcolor = '#c7ffd6', nullcolor = '#e30202', SearchID = 'SearchInput', ResultID = 'SearchResult', DebugMode = false)" placeholder="Search for pages" title="Search for pages">
+<p style="font-size: 30px; margin-left: 30%; margin-right: 30%">Search for pages</p>
+<input style="margin-left: 30%; margin-right: 30%; font-size: 20px; height: 25px; width: 40%" type="text" id="SearchInput" onkeyup="SearchMain(list = websitePages, textcolor = '#c7ffd6', nullcolor = '#e30202', SearchID = 'SearchInput', ResultID = 'SearchResult', DebugMode = false)" placeholder="Search for pages" title="Search for pages">
 <br>
 <p style="margin-left: 30%; margin-right: 30%; width: 40%" id="SearchResult"></p>
 <script>
@@ -11,18 +11,11 @@
         // the path is used to create a link to the desired page
         let websitePages =
             [
-                {"name":"HTML", "path":"/topics/html"},
-                {"name":"CSS", "path":"/topics/scss"},
-                {"name":"JavaScript", "path":"/topics/javascript"},
-                {"name":"API Collection", "path":"/api_collection/"},
-                {"name":"CRUD", "path":"/crud/"},
-                {"name":"Async CRUD", "path":"/crud_api/"},
-                {"name":"Search (Database)", "path":"/crud/search/"},
-                {"name":"Login", "path":"/login/"},
-                {"name":"Sign Up", "path":"/register/"},
-                {"name":"Home", "path":"/"},
-                {"name":"Games", "path":"/games/"},
-                {"name":"Google Translate", "path":"/google_translate/"}
+                {"name":"Test Prep", "path":"/study"},
+                {"name":"Project Documentation", "path":"/project_doc"},
+                {"name":"Create Task Documentation", "path":"/ct_doc"},
+                {"name":"Home", "path":"/"}
+
             ] ;
 
         function SearchMain(list = websitePages, textcolor = 'white',nullcolor = 'red', SearchID = 'SearchInput', ResultID = 'SearchResult', DebugMode = false, NoRText = 'No Results') {
