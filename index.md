@@ -11,10 +11,10 @@
         // the path is used to create a link to the desired page
         let websitePages =
             [
-                {"name":"Test Prep", "path":"/DataStructures/study"},
-                {"name":"Project Documentation", "path":"/DataStructures/project_doc"},
-                {"name":"Create Task Documentation", "path":"/DataStructures/ct_doc"},
-                {"name":"Home", "path":"/DataStructures/"}
+                {"name":"Test Prep", "path":"jakubponulak.github.io/DataStructures/study"},
+                {"name":"Project Documentation", "path":"jakubponulak.github.io/DataStructures/project_doc"},
+                {"name":"Create Task Documentation", "path":"jakubponulak.github.io/DataStructures/ct_doc"},
+                {"name":"Home", "path":"jakubponulak.github.io/DataStructures/"}
 
             ] ;
 
@@ -27,7 +27,7 @@
                     if (list[x].name.toUpperCase().includes(filter)) { //using include function allows users to only input part of the page name instead of the whole thing
                         let link = list[x].path;
                         let title = list[x].name;
-                        let output = `<a class='intlink' href='${link}'>${title}</a>` + ' | '; //this allows multiple links to be included in the result
+                        let output = `<a href='${link}'>${title}</a>` + ' | '; //this allows multiple links to be included in the result
                         document.getElementById(ResultID).innerHTML += output
                         document.getElementById(ResultID).style.color = 'grey'
                         let intlink = document.getElementsByClassName('intlink')
