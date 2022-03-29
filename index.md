@@ -12,9 +12,11 @@
         let websitePages =
             [
                 {"name":"Test Prep", "path":"https://jakubponulak.github.io/DataStructures/study"},
-                {"name":"Project Documentation", "path":"jakubponulak.github.io/DataStructures/project_doc"},
-                {"name":"Create Task Documentation", "path":"jakubponulak.github.io/DataStructures/ct_doc"},
-                {"name":"Home", "path":"jakubponulak.github.io/DataStructures/"}
+                {"name":"Project Documentation", "path":"https://jakubponulak.github.io/DataStructures/project_doc"},
+                {"name":"Create Task Documentation", "path":"https://jakubponulak.github.io/DataStructures/ct_doc"},
+                {"name":"Home", "path":"https://jakubponulak.github.io/DataStructures/DataStructures/"},
+                {"name":"Guython", "path":"https://akhilnandhakumar.github.io/Guython/"},
+
 
             ] ;
 
