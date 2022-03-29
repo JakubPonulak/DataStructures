@@ -82,10 +82,39 @@ def lcm_func(a,b):
       maximum = maximum + 1
   return maximum
 
-#IMPERATIVE LCM TESTER
+#Imperative LCM tester
 def lcm():
   print("The LCM of 16, 12 is", lcm_func(16,12))
   print("The LCM of 377, 27 is",lcm_func(377, 278))
+
+# CROSSOVER: OOP LCM
+class LCM:
+    # Only needs a call, no init because no defined properties
+    def __call__(self, a, b):
+        if (a > b):
+            maximum = a
+        else:
+            maximum = b
+        while (True):
+            if (maximum % a == 0 and maximum % b == 0):
+                break
+            maximum = maximum + 1
+        return maximum
+
+# OOP LCM Tester
+def lcm_oop():
+    # Tester 1
+    a = 16 # int(input("Input your first value: "))
+    b = 12 # int(input("Input your second value: "))
+    lcm = LCM()
+    result = lcm(a,b)
+    print("-"*45, "\nThe least common multiple of", a, "and", b, "is", result)
+    # Tester 2
+    a = 377
+    b = 278    
+    result = lcm(a,b)
+    print("-"*45, "\nThe least common multiple of", a, "and", b, "is", result)
+
 
 #this tester allows users to test phrases for the palindrome without giving inputs
 def pali_tester():
