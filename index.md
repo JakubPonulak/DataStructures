@@ -16,8 +16,9 @@
                 {"name":"Create Task Documentation", "path":"https://jakubponulak.github.io/DataStructures/ct_doc"},
                 {"name":"Home", "path":"https://jakubponulak.github.io/DataStructures/DataStructures/"},
                 {"name":"Guython", "path":"https://akhilnandhakumar.github.io/Guython/"},
-
-
+                {"name":"Personal GitHub Repository", "path":"https://github.com/JakubPonulak/DataStructures"},
+                {"name":"Team GitHub Repository", "path":"https://github.com/AkhilNandhakumar/Guython"},
+                {"name":"Replit Project", "path":"https://replit.com/@JakubPonulak/DataStructures"},
             ] ;
 
         function SearchMain(list = websitePages, textcolor = 'white',nullcolor = 'red', SearchID = 'SearchInput', ResultID = 'SearchResult', DebugMode = false, NoRText = 'No Results') {
