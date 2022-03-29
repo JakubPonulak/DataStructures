@@ -80,6 +80,7 @@ sub_menu0 = [
 
 sub_menu1 = [
     ["List Printer", loops.tester],
+    ["List Finder", loops.list_finder],
     ["Fibonacci", loops.fibonacci],
 ]
 

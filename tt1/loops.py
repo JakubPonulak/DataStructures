@@ -69,6 +69,23 @@ def while_loop(n):
         n += 1
     return
 
+# CROSSOVER: list finder
+def list_finder():
+  num = int(input("Which index do you want to search (0-" + str(len(InfoDb)-1) +"): "))
+  print("-" * 25)
+  try:
+    # Prints all info of the given index
+    print(InfoDb[num]["FirstName"] + " "+ InfoDb[num]["LastName"])
+    print("Date of Birth: " + InfoDb[num]["DOB"])
+    print("Residence: " + InfoDb[num]["Residence"])
+    print("Email: " + InfoDb[num]["Email"])
+    print("Owns Cars: ")
+    for i in range (0, len(InfoDb[num]["Owns_Cars"])):
+      print("  - " + InfoDb[num]["Owns_Cars"][i])
+  except:
+    # Prints this if the index is not in the list
+    print("Invalid index given.")
+
 def recursive_loop(n):
     if n < len(InfoDb):
         print_data(n)
