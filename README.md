@@ -7,3 +7,7 @@ My name is Jakub Ponulak, and I'm a junior at Del Norte High School. Throughout 
 ### Week 0 [Review Ticket](https://github.com/AkhilNandhakumar/Guython/issues/7)
 
 ### Week 1 [Review Ticket](https://github.com/AkhilNandhakumar/Guython/issues/13)
+
+### Week 2 [Review Ticket](https://github.com/AkhilNandhakumar/Guython/issues/20)
+
+### Week 3 [Review Ticket](https://github.com/AkhilNandhakumar/Guython/issues/24)
