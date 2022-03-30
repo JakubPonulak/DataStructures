@@ -75,4 +75,6 @@ let websitePages =
 ```
 ## Runtime Links
 
+{% include ct_embed.html %}
+
 [Create Task Runtime](https://replit.com/@JakubPonulak/Create-Task-Runtime#index.html)
