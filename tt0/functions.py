@@ -5,7 +5,7 @@ RESET_COLOR = u"\u001B[0m\u001B[2D"
 
 from tt1 import loops
 from tt2 import classes
-import time
+import time, os
 
 def smile_print(position):
     print(ANSI_HOME_CURSOR)
@@ -159,9 +159,11 @@ def buildMenu(banner, options):
         choice = int(choice)
         if choice == 0:
             # stop
+            os.system("clear")
             return
         try:
-            # try as function
+            # try as functio
+            os.system("clear")
             action = prompts.get(choice)[1]
             action()
         except TypeError:
