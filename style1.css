@@ -69,6 +69,7 @@ body{
     background:#151515;
     color:#eaeaea;
     font-size:16px;
+    text-align: center;
     line-height:1.5;
     font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
 }
