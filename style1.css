@@ -168,7 +168,6 @@ dt{
     font-weight:bold
 }
 ul li{
-    list-style-image:url("../images/bullet.png")
 }
 blockquote{
     color:#aaa;
@@ -240,7 +239,6 @@ hr{
 }
 .btn-github .icon{
     opacity:0.6;
-    background:url("../images/blacktocat.png") 0 0 no-repeat
 }
 a{
     color:#742ea6;
@@ -252,7 +250,7 @@ a:active{
 }
 a:hover{
     color: #FF00FF;
-    text-shadow:0 0 10px rgba(212,108,212,0.5)]
+    text-shadow:0 0 10px rgba(212,108,212,0.5)
 }
 
 .cf:before,.cf:after{
