@@ -64,12 +64,13 @@
     color:#90a959
 }
 body{
-    margin:;
+    margin-left: 20%;
+    margin-right: 20%;
     padding:0;
     background:#151515;
     color:#eaeaea;
     font-size:16px;
-    text-align: center;
+    text-align: left;
     line-height:1.5;
     font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
 }
