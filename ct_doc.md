@@ -2,6 +2,10 @@
 
 # Create Task Documentation
 
+## Replit Runtime
+
+{% include ct_embed.html %}
+
 ## Code Snippets
 ```
 <input type="text" id="SearchInput" onkeyup="SearchMain(list = websitePages, textcolor = '#7051fc', nullcolor = '#e30202', SearchID = 'SearchInput', ResultID = 'SearchResult', DebugMode = false)" placeholder="Search for pages" title="Search for pages">
@@ -73,8 +77,5 @@ let websitePages =
                 }
         }
 ```
-## Runtime Links
-
-{% include ct_embed.html %}
 
 [Create Task Runtime](https://replit.com/@JakubPonulak/Create-Task-Runtime#index.html)
