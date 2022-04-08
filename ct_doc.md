@@ -37,25 +37,18 @@
    ```
    let websitePages =
          [
-             {"name":"Hamza", "path":"/hamza/"},
-             {"name":"Jakub", "path":"/jakub/"},
-             {"name":"Kevin", "path":"/kevin/"},
-             {"name":"Sreeja", "path":"/sreeja/"},
-             {"name":"Tristan", "path":"/tristan/"},
-             {"name":"Math", "path":"/math/"},
-             {"name":"History", "path":"/history/"},
-             {"name":"Science", "path":"/sci/"},
-             {"name":"Literature", "path":"/lit/"},
-             {"name":"Periodic Table", "path":"/periodictable/"},
-             {"name":"AP Chemistry", "path":"/chem/"},
+             {"name":"HTML", "path":"/topics/html"},
+             {"name":"CSS", "path":"/topics/scss"},
+             {"name":"JavaScript", "path":"/topics/javascript"},
              {"name":"API Collection", "path":"/api_collection/"},
              {"name":"CRUD", "path":"/crud/"},
              {"name":"Async CRUD", "path":"/crud_api/"},
              {"name":"Search (Database)", "path":"/crud/search/"},
              {"name":"Login", "path":"/login/"},
              {"name":"Sign Up", "path":"/register/"},
-             {"name":"Forums", "path":"/forums"},
              {"name":"Home", "path":"/"},
+             {"name":"Games", "path":"/games/"},
+             {"name":"Google Translate", "path":"/google_translate/"}
          ] ;
    ```
    b. The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program’s purpose. 
