@@ -10,7 +10,9 @@
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PXu6HuwYsPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="margin-left: 20%; margin-right: 20%" width="880" height="495" src="https://www.youtube.com/embed/PXu6HuwYsPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
 
 ## Written Response
 
