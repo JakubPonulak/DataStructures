@@ -64,6 +64,7 @@
    b. The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program’s purpose. 
 
    ```
+   // in this case, the variable "list" is set as websitePages
    for (i = 0; i < list.length; i++) {
         let link = list[i].path
         let title = list[i].name
