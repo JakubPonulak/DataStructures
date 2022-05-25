@@ -6,7 +6,7 @@
 
 In order to meet the requirements set for N@TM, along with creating something that would be helpful for our website, so we created a calendar that makes use of our database. The idea is that administrators can create and update events, and students will be able to see those events and why day they are by clicking on the calendar. Something I had trouble with was looping through the database in JS. Eventually, after troubleshooting and testing, I realized that it was easiest for my to put the data in python lists and then looping through them via a Jinja for loop. We also created an authentication page that stops unauthorized users from user certain pages, such as our calendar. Overall our team was quite succesful with these additions, though there are some small features that we haven't implement. I think that our team could have been more focused in class, so I give us 4.5/5. I would give myself a 5/5, because I worked on the calendar in class, and spent a significant amount of time outside of class on it.
 
-#### Runtime Demo
+## Runtime Demo
 <iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@JakubPonulak/DataStructures?embed=true#index.html"></iframe>
 
 <!-- ## Code Snippets
